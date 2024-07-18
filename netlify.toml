@@ -1,3 +1,12 @@
 [build]
   publish = ".next"
   command = "npm run build"
+
+package = "@newrelic/netlify-plugin"
+
+  [plugins.inputs]
+    newrelicAccountId = "3290072"
+    newrelicLicenseKey = "b069cbe34949575ec69da85edbd615ccFFFFNRAL"
+    newrelicBrowserLicenseKey = "NRBR-dc099394346517ccf5d"
+    newrelicAppId = "601484204"
+    enableBrowserMonitoring = true
